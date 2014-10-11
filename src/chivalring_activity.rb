@@ -15,7 +15,7 @@ class ChivalringActivity
           @text_view = text_view :text => 'What hath Matz wrought?', :id => 42, 
                                  :layout => {:width => :match_parent},
                                  :gravity => :center, :text_size => 48.0
-          button :text => 'M-x butterfly', 
+          button :text => 'M-x butterfly',
                  :layout => {:width => :match_parent},
                  :id => 43, :on_click_listener => proc { butterfly }
         end
